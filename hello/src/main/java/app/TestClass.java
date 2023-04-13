@@ -14,7 +14,7 @@ public class TestClass {
     private boolean bt = true;
     private boolean bf = false; //boolean型はtrue or false
     //nullは変数に代入できない
-    
+
 
     public TestClass() {
 
@@ -34,5 +34,7 @@ public class TestClass {
         System.out.println(literal2);
         System.out.println(d);
         System.out.println(double16);
+        c++;
+        System.out.println(c);
     }
 }
