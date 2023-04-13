@@ -9,8 +9,12 @@ public class TestClass {
     private long literal2 = 0b1_1110_0101L; //2進数は0bから始まる _を桁区切り文字に使える（他の進数でも同様）
     private double d = 1.5e-2d; //指数表記が可能。末尾にdかDをつけるとdoubleになる
     private double double16 = 0x1F.7FFp-3D; //16進数の少数も最初に0x 16進数の少数をpつけないでやると不正扱いされた？
-    private char c = 'a' //char型はシングルクォート
-    private String s = "aiueo" //String型はダブルクォート
+    private char c = 'a'; //char型はシングルクォート
+    private String s = "aiueo"; //String型はダブルクォート
+    private boolean bt = true;
+    private boolean bf = false; //boolean型はtrue or false
+    //nullは変数に代入できない
+    
 
     public TestClass() {
 
